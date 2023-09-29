@@ -88,3 +88,82 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2a3031; /* Background color for the entire page */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  height: 100vh; /* Ensure full viewport height */
+}
+
+.game {
+  background-color: #3e6c72; /* Background color for the game board */
+  border: 2px solid #333333; /* Border around the game board */
+  border-radius: 5px; /* Rounded corners for the game board */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+  max-width: 400px; /* Limit the width of the game board */
+  padding: 20px; /* Add some spacing inside the game board */
+  text-align: center; /* Center text within the game board */
+}
+
+.square {
+  background: #00fff2;
+  border: 1px solid #0c3d58;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.square:hover {
+  background-color: #eee; /* Light gray background on hover */
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333; /* Dark text color for game status */
+}
+
+.game-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #44bcb0; /*  background color for buttons */
+  color: #000000; /* black text color for buttons */
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #eee; /* Slightly darker background on hover */
+}
