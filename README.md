@@ -1,4 +1,4 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe App
 This is a simple web application built using JavaScript and React that allows players to play Tic-Tac-Toe with the added feature of time travel, enabling them to go back and edit previous turns.
 
 ## Features
